@@ -1,5 +1,4 @@
 #!/bin/bash
-
 set -e
 
 # Menambahkan Repositori Kartolo
@@ -55,3 +54,8 @@ sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
 # Menyiapkan Aturan IPTables
 sudo netfilter-persistent save
+
+
+
+
+   
